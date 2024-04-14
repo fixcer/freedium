@@ -1,0 +1,16 @@
+{
+  "name": "Freedium",
+  "description": "Freedium helps you read members-only articles on medium quickly",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": [
+    "contextMenus"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "48": "/assets/icons/48.png",
+    "128": "/assets/icons/128.png"
+  }
+}
